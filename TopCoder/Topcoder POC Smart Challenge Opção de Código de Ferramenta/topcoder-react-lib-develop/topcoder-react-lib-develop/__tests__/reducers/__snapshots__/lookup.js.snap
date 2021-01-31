@@ -1,0 +1,259 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Default reducer Get countries 1`] = `
+Object {
+  "allCountries": Array [],
+  "countries": Array [
+    Object {
+      "country": "Afghanistan",
+      "countryCode": "AFG",
+    },
+  ],
+  "hasMoreModels": false,
+  "hasMoreOses": false,
+  "loadingCountriesError": false,
+  "loadingSkillTagsError": true,
+  "manufacturers": Array [],
+  "modelPage": 1,
+  "models": Array [],
+  "osPage": 1,
+  "oses": Array [],
+  "reviewTypes": Array [],
+  "skillTags": Array [
+    Object {
+      "domain": "SKILLS",
+      "id": 251,
+      "name": "Jekyll",
+      "status": "APPROVED",
+    },
+  ],
+  "types": Array [],
+}
+`;
+
+exports[`Default reducer Get countries error 1`] = `
+Object {
+  "allCountries": Array [],
+  "countries": Array [
+    Object {
+      "country": "Afghanistan",
+      "countryCode": "AFG",
+    },
+  ],
+  "hasMoreModels": false,
+  "hasMoreOses": false,
+  "loadingCountriesError": true,
+  "loadingSkillTagsError": true,
+  "manufacturers": Array [],
+  "modelPage": 1,
+  "models": Array [],
+  "osPage": 1,
+  "oses": Array [],
+  "reviewTypes": Array [],
+  "skillTags": Array [
+    Object {
+      "domain": "SKILLS",
+      "id": 251,
+      "name": "Jekyll",
+      "status": "APPROVED",
+    },
+  ],
+  "types": Array [],
+}
+`;
+
+exports[`Default reducer Get skill tags 1`] = `
+Object {
+  "allCountries": Array [],
+  "countries": Array [],
+  "hasMoreModels": false,
+  "hasMoreOses": false,
+  "loadingSkillTagsError": false,
+  "manufacturers": Array [],
+  "modelPage": 1,
+  "models": Array [],
+  "osPage": 1,
+  "oses": Array [],
+  "reviewTypes": Array [],
+  "skillTags": Array [
+    Object {
+      "domain": "SKILLS",
+      "id": 251,
+      "name": "Jekyll",
+      "status": "APPROVED",
+    },
+  ],
+  "types": Array [],
+}
+`;
+
+exports[`Default reducer Get skill tags error 1`] = `
+Object {
+  "allCountries": Array [],
+  "countries": Array [],
+  "hasMoreModels": false,
+  "hasMoreOses": false,
+  "loadingSkillTagsError": true,
+  "manufacturers": Array [],
+  "modelPage": 1,
+  "models": Array [],
+  "osPage": 1,
+  "oses": Array [],
+  "reviewTypes": Array [],
+  "skillTags": Array [
+    Object {
+      "domain": "SKILLS",
+      "id": 251,
+      "name": "Jekyll",
+      "status": "APPROVED",
+    },
+  ],
+  "types": Array [],
+}
+`;
+
+exports[`Default reducer Initial state 1`] = `
+Object {
+  "allCountries": Array [],
+  "countries": Array [],
+  "hasMoreModels": false,
+  "hasMoreOses": false,
+  "manufacturers": Array [],
+  "modelPage": 1,
+  "models": Array [],
+  "osPage": 1,
+  "oses": Array [],
+  "reviewTypes": Array [],
+  "skillTags": Array [],
+  "types": Array [],
+}
+`;
+
+exports[`Factory without server side rendering Get countries 1`] = `
+Object {
+  "allCountries": Array [],
+  "countries": Array [
+    Object {
+      "country": "Afghanistan",
+      "countryCode": "AFG",
+    },
+  ],
+  "hasMoreModels": false,
+  "hasMoreOses": false,
+  "loadingCountriesError": false,
+  "loadingSkillTagsError": true,
+  "manufacturers": Array [],
+  "modelPage": 1,
+  "models": Array [],
+  "osPage": 1,
+  "oses": Array [],
+  "reviewTypes": Array [],
+  "skillTags": Array [
+    Object {
+      "domain": "SKILLS",
+      "id": 251,
+      "name": "Jekyll",
+      "status": "APPROVED",
+    },
+  ],
+  "types": Array [],
+}
+`;
+
+exports[`Factory without server side rendering Get countries error 1`] = `
+Object {
+  "allCountries": Array [],
+  "countries": Array [
+    Object {
+      "country": "Afghanistan",
+      "countryCode": "AFG",
+    },
+  ],
+  "hasMoreModels": false,
+  "hasMoreOses": false,
+  "loadingCountriesError": true,
+  "loadingSkillTagsError": true,
+  "manufacturers": Array [],
+  "modelPage": 1,
+  "models": Array [],
+  "osPage": 1,
+  "oses": Array [],
+  "reviewTypes": Array [],
+  "skillTags": Array [
+    Object {
+      "domain": "SKILLS",
+      "id": 251,
+      "name": "Jekyll",
+      "status": "APPROVED",
+    },
+  ],
+  "types": Array [],
+}
+`;
+
+exports[`Factory without server side rendering Get skill tags 1`] = `
+Object {
+  "allCountries": Array [],
+  "countries": Array [],
+  "hasMoreModels": false,
+  "hasMoreOses": false,
+  "loadingSkillTagsError": false,
+  "manufacturers": Array [],
+  "modelPage": 1,
+  "models": Array [],
+  "osPage": 1,
+  "oses": Array [],
+  "reviewTypes": Array [],
+  "skillTags": Array [
+    Object {
+      "domain": "SKILLS",
+      "id": 251,
+      "name": "Jekyll",
+      "status": "APPROVED",
+    },
+  ],
+  "types": Array [],
+}
+`;
+
+exports[`Factory without server side rendering Get skill tags error 1`] = `
+Object {
+  "allCountries": Array [],
+  "countries": Array [],
+  "hasMoreModels": false,
+  "hasMoreOses": false,
+  "loadingSkillTagsError": true,
+  "manufacturers": Array [],
+  "modelPage": 1,
+  "models": Array [],
+  "osPage": 1,
+  "oses": Array [],
+  "reviewTypes": Array [],
+  "skillTags": Array [
+    Object {
+      "domain": "SKILLS",
+      "id": 251,
+      "name": "Jekyll",
+      "status": "APPROVED",
+    },
+  ],
+  "types": Array [],
+}
+`;
+
+exports[`Factory without server side rendering Initial state 1`] = `
+Object {
+  "allCountries": Array [],
+  "countries": Array [],
+  "hasMoreModels": false,
+  "hasMoreOses": false,
+  "manufacturers": Array [],
+  "modelPage": 1,
+  "models": Array [],
+  "osPage": 1,
+  "oses": Array [],
+  "reviewTypes": Array [],
+  "skillTags": Array [],
+  "types": Array [],
+}
+`;
